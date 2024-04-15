@@ -1,0 +1,58 @@
+
+h1{
+	text-align: center;
+	margin : 4vw;
+	color: gray;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+.create{
+	width: 80%;
+}
+form{
+	margin: auto;
+	width: 70%;
+	justify-items: center;
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	font-size: 1.2vw;
+}
+form > *{
+	width: 100%;
+	margin: 1vw;
+}
+
+form input, form select{
+	padding: 1vw;
+}
+
+input[type="submit"]{
+	width: 50%;
+	background-color: rgb(225, 70, 26);
+	color: #fff;
+	border: 1px solid grey;
+}
+fieldset {
+	border: 1px solid black;
+	font-size: 1vw;
+}
+.steps{
+	display: flex;
+	padding: 0.5vw;
+}
+
+.steps .action{
+	height: 100%;
+	width: 10%;
+	text-align: center;
+}
+.steps .action div{
+	border: 1px solid rgb(20,20,20);
+	width: 100%;
+	height: 100%;
+	margin: 0.5vw auto;
+}
+.steps .step{
+	text-align: center;
+	padding: 0.5vw;
+}

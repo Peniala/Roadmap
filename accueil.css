@@ -1,0 +1,55 @@
+
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+}
+
+.center{
+	width: 80%;
+	height: 80vh;
+	margin: 5vw;
+	margin-right: 30%;
+	padding: 4vw;
+	background-color: rgb(244, 101, 39);
+}
+
+.center h1{
+	font-size: 3em;
+	color: #fff;
+	font-family: sans-serif;
+}
+.navigation{
+	width: 20%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	justify-content: center;
+	background-color: rgb(222, 184, 135);
+}
+
+.navigation nav{
+	margin:auto;
+	margin-top: 10vh;
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+}
+
+.navigation nav a , .navigation nav a button{
+	width: 100%;
+}
+
+.navigation nav a {
+	margin: 0.5vh auto;
+	text-decoration: none;
+}
+
+.navigation nav a button{
+	height: 5vh;
+	padding: 0.5vw;
+}

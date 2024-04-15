@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.view{
+	width: 80%;	
+	font-family: sans-serif;
+}
+h1{
+	text-align: center;
+	color: gray;
+	font-family: sans-serif;
+	margin: 5vw auto;
+}
+.projects{
+	margin: auto;
+	padding: 2vw;
+	width: 90%;
+}
+.projects div{
+	margin: 0.2vw;
+	padding: 0.4vw;
+}
+.projects legend{
+	color: gray;
+	padding: 0.5vw;
+}
+.projects .title{
+	font-size: 1.2em;
+}
+.formStep{
+	display: flex;
+}
+.formStep > div{
+	width: 95%;
+}
+.formStep > input{
+	width: 5%;
+	margin: 0.2vw;
+}
+.prio1{
+	background-color: rgba(206, 33, 33, 0.733) ;
+	color: white;
+}
+.prio2{
+	background-color: rgb(89, 89, 151);
+	color: white;
+}
+.prio3{
+	background-color: rgb(90, 145, 90);
+	color: white;
+}
+#progress{
+	background-color: rgb(13, 87, 13);
+	height: 2vh;
+	transition: width 1s ease-in;
+}
